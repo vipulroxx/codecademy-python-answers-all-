@@ -1,0 +1,8 @@
+my_list = range(16)
+print filter(lambda x: x % 3 == 0, my_list)
+    def filter(func, collection):
+        result = []
+        for item in collection:
+            if func(item):
+                result.append(item)
+        return result

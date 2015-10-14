@@ -1,0 +1,8 @@
+shiftright = 0b1100
+shiftleft = 0b1
+
+shiftright=shiftright >> 2
+shiftleft=shiftleft << 2
+
+print bin(shiftright)
+print bin(shiftleft)

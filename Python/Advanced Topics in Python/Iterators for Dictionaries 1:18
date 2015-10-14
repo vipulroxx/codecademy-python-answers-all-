@@ -1,0 +1,6 @@
+my_dict = {
+    "Nafme": "Guido",
+    "Agfe": 56,
+    "BDfFL": True
+}
+print my_dict.items()

@@ -1,0 +1,11 @@
+def shut_down(s):
+    s = s.lower()
+    if s == "yes":
+        return "Shutting down"
+    elif s == "no":
+        return "Shutdown aborted"
+    else:
+        return "Sorry"
+
+print shut_down("Yes")
+print shut_down("I don't know")

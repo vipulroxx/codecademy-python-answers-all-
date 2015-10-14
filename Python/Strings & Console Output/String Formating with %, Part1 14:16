@@ -1,0 +1,4 @@
+string_1 = "Camelot"
+string_2 = "place"
+
+print "Let's do it %s. 'Just like taht %s." % (string_1, string_2)

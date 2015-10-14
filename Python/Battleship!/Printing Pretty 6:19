@@ -1,0 +1,12 @@
+board = []
+for x in range(5):
+#indent 1
+    board.append(['O'] * 5)
+
+def print_board(bed):
+#indent 1
+    for row in bed:
+#indent 2
+        print " ".join(row)
+
+print_board(board)

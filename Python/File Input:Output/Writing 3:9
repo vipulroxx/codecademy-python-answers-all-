@@ -1,0 +1,7 @@
+mylist = [i**2 for i in range(1,11)]
+myfile = open("output.txt", "r+")
+
+for i in mylist:
+    myfile.write(str(i) + "\n")
+
+my_file.close()

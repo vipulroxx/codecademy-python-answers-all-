@@ -1,0 +1,5 @@
+print 'Welcome to the Pig Latin Translator!'
+
+name = raw_input("Enter a word:")
+original = name
+print name

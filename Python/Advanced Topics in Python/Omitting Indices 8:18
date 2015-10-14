@@ -1,0 +1,8 @@
+my_list = range(1, 11) # List of numbers 1 - 10
+
+my_list = range(1, 11) # List of numbers 1 - 10
+
+# Add your code below!
+all_odds = my_list[::2] # captures all odds
+every_other_odd = all_odds[::2] #every other odd
+print every_other_odd

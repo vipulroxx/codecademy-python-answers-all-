@@ -1,0 +1,6 @@
+def purify(n):
+    n_even=[]
+    for i in n:
+        if i%2==0:
+            n_even.append(i)
+    return n_even

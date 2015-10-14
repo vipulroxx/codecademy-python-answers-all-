@@ -1,0 +1,10 @@
+def remove_duplicates(nimbs):
+    noDup=[]
+    marks={}
+    for j in nimbs:
+            marks[j]=False
+    for i in nimbs:
+        if marks[i]==False:
+            noDup.append(i)
+            marks[i]=True
+    return noDup

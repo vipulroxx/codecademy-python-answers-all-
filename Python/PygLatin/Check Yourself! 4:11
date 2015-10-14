@@ -1,0 +1,7 @@
+raw_input("Enter a word:")
+original = raw_input()
+
+if len(original) > 0:
+    print "original"
+else:
+    print "empty"

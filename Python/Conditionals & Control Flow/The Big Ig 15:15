@@ -1,0 +1,9 @@
+# Make sure that the_flying_circus() returns True
+def the_flying_circus():
+    if (3 == 4) or (5 >= 9):    # Start coding here!
+        print "That is true."
+        return False
+    elif (3 < 4) and (5 >= 5):
+        return True
+    else:  
+        return True

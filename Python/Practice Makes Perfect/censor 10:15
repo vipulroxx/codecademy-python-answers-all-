@@ -1,0 +1,10 @@
+def censor(text, word):
+    lst = text.split()
+    lst2 = []
+    for w in lst:
+        if w == word:
+            lst2.append("*"*len(w))
+        else:
+            lst2.append(w)
+    print " ".join(lst2)
+    return " ".join(lst2)

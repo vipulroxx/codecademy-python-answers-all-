@@ -1,0 +1,9 @@
+if guess_row == ship_row and guess_col == ship_col:
+    print("Congratulations! You sank my battleship!")
+else:
+    print("You missed my battleship!")
+
+    board[int(guess_row)][int(guess_col)] = "X"
+
+    print_board(board)
+    

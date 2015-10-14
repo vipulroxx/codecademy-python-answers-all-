@@ -1,0 +1,8 @@
+my_dict = {
+    "Name": "Pippo",
+    "Surname": "Micky",
+    "Age": 135,
+    "BDFL": True
+}
+for key in my_dict:
+    print key, my_dict[key]

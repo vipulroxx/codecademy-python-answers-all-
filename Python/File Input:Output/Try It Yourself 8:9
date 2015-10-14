@@ -1,0 +1,3 @@
+my_file = open("text.txt", "w")
+with my_file as file:
+        file.write("Work more!")

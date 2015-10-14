@@ -1,0 +1,19 @@
+class Animal(object):
+    isalive = True
+    health = "good"
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def description():
+        print name
+        print age
+
+hippo = Animal("Betty", 43)
+sloth = Animal("Gordon", 27)
+ocelot = Animal("Archer", 4)
+
+print hippo.health
+print sloth.health
+print ocelot.health
